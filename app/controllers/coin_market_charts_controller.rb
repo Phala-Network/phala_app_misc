@@ -17,6 +17,7 @@ class CoinMarketChartsController < ApplicationController
       symbol: symbol,
       price: chart_data.last ? chart_data.last[1] : 0.0,
       last_updated_at: chart_data.last ? chart_data.last[0] : nil,
+      data: chart_data
     }
   end
 end
