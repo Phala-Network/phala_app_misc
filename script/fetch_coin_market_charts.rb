@@ -12,7 +12,7 @@ TOKENS = {
   "pha" => "PHA",
   "polkadot" => "DOT",
   "bifrost-native-coin" => "BNC",
-  "zenlink-network-token" => "ZNC"
+  "zenlink-network-token" => "ZLK",
 }
 
 puts "Running at #{Time.zone.now}"
